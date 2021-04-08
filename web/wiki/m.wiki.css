@@ -1,0 +1,11 @@
+.banner-container, .header, .page-header-bar, .overlay-header, .content, .overlay-content, .content-unstyled, .pre-content, .post-content, #mw-content-text > form, #mw-mf-page-center .pointer-overlay {
+    max-width: 70%;
+}
+
+.content table.infobox th, .content table.infobox th > a {
+    color: black;
+}
+
+.header-container, sup {
+    display: none !important;
+}

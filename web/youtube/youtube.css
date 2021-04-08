@@ -1,0 +1,283 @@
+#chips-wrapper.ytd-feed-filter-chip-bar-renderer {
+	position: absolute;
+	background-color: transparent;
+	border-top: none;
+	border-bottom: none;
+}
+
+ytd-mini-guide-renderer, ytd-mini-guide-entry-renderer {
+	background-color: transparent;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#masthead, #guide-content.ytd-app, ytd-mini-guide-entry-renderer[background-color-update] {
+	background-color: #181818;
+}
+
+#content {
+	--ytd-masthead-height: 45px !important;
+	--app-drawer-width: 240px !important;
+}
+
+#masthead > #container {
+	height: 45px;
+}
+
+#center {
+	margin: auto;
+}
+
+#guide {
+	top: 45px;
+}
+
+ytd-mini-guide-renderer.ytd-app {
+	top: var(--ytd-masthead-height, 45px);
+}
+
+#page-manager.ytd-app {
+	--ytd-toolbar-offset: var(--ytd-masthead-height, 45px) !important;
+}
+
+#items.ytd-grid-renderer > ytd-grid-video-renderer.ytd-grid-renderer {
+	margin-right: 8px;
+}
+
+#items.ytd-grid-renderer > ytd-grid-video-renderer.ytd-grid-renderer:hover {
+	transform: translateY(-5px);
+	transition-duration: 200ms;
+}
+
+ytd-two-column-browse-results-renderer.style-scope {
+	width: 92% !important;
+}
+
+yt-img-shadow.ytd-topbar-menu-button-renderer {
+	width: 26px;
+	height: 26px;
+}
+
+#end.ytd-masthead {
+	min-width: auto;
+}
+
+ytd-guide-section-renderer {
+	width: 90%;
+	margin: auto;
+}
+
+paper-item.ytd-guide-entry-renderer {
+	padding: 0 14px;
+}
+
+.title.ytd-guide-entry-renderer {
+	text-overflow: clip;
+	margin-right: 0;
+}
+
+ytd-guide-entry-renderer[active] {
+	background-color: transparent;
+}
+
+#contentContainer.app-drawer,
+#contentContainer.tp-yt-app-drawer {
+	padding-top: 0;
+}
+
+.guide-icon.ytd-guide-entry-renderer, yt-img-shadow.ytd-guide-entry-renderer {
+	margin-right: 20px;
+}
+
+#movie_player {
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px #0005, -5px -5px 10px #0005;
+}
+
+.ytp-chrome-bottom {
+	width: 100% !important;
+	left: 0 !important;
+}
+
+.ytp-chrome-controls {
+	margin: 0 12px;
+}
+
+ytd-expander {
+	--ytd-expander-collapsed-height: auto !important;
+}
+
+ytd-video-secondary-info-renderer {
+	border-bottom: none;
+}
+
+/* Video progress bar */
+.ytp-progress-list {
+	background-color: transparent;
+}
+
+.ytp-load-progress {
+	background-color: rgba(255, 255, 255, .2)
+}
+
+.ytp-swatch-background-color {
+	/* background: linear-gradient(to left,#ff0000, #ff8900, #d800ff, #ff8900, #ff0000); */
+	background: linear-gradient(70deg, #F00, #C000FF, #f00);
+	background-size: 400%;
+	animation: Gradient 10s ease infinite;
+}
+
+
+/* Playlist */
+
+#playlist > #container > * {
+	background-color: #141414;
+}
+
+.title.ytd-playlist-panel-renderer a {
+	color: #FFF !important;
+}
+
+#publisher-container * {
+	color: #AAA !important;
+}
+
+/* Like & dislike buttons */
+#top-level-buttons > :nth-child(1).style-default-active {
+	color: #0C0;
+}
+
+#top-level-buttons > :nth-child(2).style-default-active {
+	color: #C00;
+}
+
+#like-bar {
+	width: auto !important;
+	background: linear-gradient(to right, #0C0 90%, #C00) !important;
+}
+
+#sentiment > #container {
+	background: #C00;
+}
+
+#info #top-level-buttons > :nth-child(4) {
+	line-height: 2.6;
+}
+
+#search-form > #container {
+	border: none;
+	text-align: center;
+}
+
+#search-form.ytd-searchbox {
+	max-width: 440px;
+	border: 1px solid white;
+	border-radius: 20px;
+	max-height: 23px;
+}
+
+#container.ytd-searchbox {
+	background: transparent;
+}
+
+#playlist, #meta #container.ytd-video-secondary-info-renderer {
+	border-bottom: 1px solid var(--yt-spec-10-percent-layer);
+}
+
+#container.ytd-video-secondary-info-renderer {
+	padding-bottom: 20px;
+}
+
+#playlist > #container {
+	border: none;
+}
+
+.ytd-search #avatar {
+	box-shadow: none;
+}
+
+#avatar {
+	box-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+	border-radius: 0 !important;
+}
+
+.ytp-settings-button svg {
+	animation: Spin 5s linear infinite;
+}
+
+.ytp-chrome-top .ytp-button, .ytp-chrome-controls .ytp-button, .ytp-replay-button {
+	opacity: 1;
+}
+
+.ytd-watch-next-secondary-results-renderer #dismissable:hover {
+	transform: scale3d(1.05, 1.05, 1.05);
+	transition-duration: .5s;
+}
+
+#player {
+	transform: scale3d(1, 1, 1);
+	transition-duration: 1s; 
+}
+
+@keyframes Gradient {
+	0%{ background-position: 0% 50% }
+	50%{ background-position: 100% 50% }
+	100%{ background-position: 0% 50% }
+}
+
+@keyframes Spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+	background-color: transparent;
+}
+
+/* Chat toggle button */
+#show-hide-button.ytd-live-chat-frame > ytd-toggle-button-renderer.ytd-live-chat-frame {
+	background-color: transparent;
+}
+
+.guide-icon.ytd-mini-guide-entry-renderer {
+	margin-bottom: 0;
+}
+
+/* Mini guide text */
+.title.ytd-mini-guide-entry-renderer,
+/* Like/Dislike bar */
+#sentiment,
+/* Useless buttons in left guide */
+#guide-renderer > #sections > :nth-child(n + 3),
+/* Right section of top bar  */
+#end,
+/* Right section of top bar (with user icon) */
+/* #end > #buttons > :nth-child(-n + 2), */
+/* YouTube Logo */
+#logo,
+#guide-section-title,
+#newness-dot,
+.ytp-chrome-top-buttons,
+.ytp-clip-start,
+.ytp-hover-progress,
+.ytd-notification-topbar-button-renderer,
+.ytp-scrubber-button,
+#sections > #header,
+ytd-button-renderer.style-scope:nth-child(4) > a:nth-child(1) > yt-icon-button:nth-child(1),
+ytd-button-renderer.ytd-menu-renderer:nth-child(3),
+ytd-menu-renderer.ytd-video-primary-info-renderer > yt-icon-button:nth-child(2),
+#guide-content > #header,
+#footer,
+#country-code,
+#upnext,
+#notification-preference-button,
+#search-icon-legacy,
+#more,
+#voice-search-button,
+#guide-spacer
+{
+	display: none !important;
+}

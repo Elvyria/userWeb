@@ -1,0 +1,48 @@
+/* Header */
+.lgmgHN {
+    position: absolute;
+}
+
+.sc-1k1yefz-0.fWPMOy {
+    height: 300px;
+}
+
+/* Posts: remove blurred images */
+.sc-eFubAy {
+    background-image: none !important;
+    background-color: #313131;
+    filter: none;
+}
+
+/* Posts: always full text */
+.sc-jrAGrp.kYMLnG > :nth-child(2) > :first-child > :nth-child(2) > :nth-child(2) {
+    height: auto !important;
+}
+
+/* Sticky Subscribe Bar */
+.sc-1cqqv42-0.jvSSDx {
+    display: none;
+}
+
+.ktrdhC {
+    max-width: 90rem;
+    margin: auto;
+}
+
+/* Posts: Likes, comments and share button */
+.sc-jrAGrp.drsdJP * {
+    color: transparent;
+}
+
+.sc-jrAGrp.RrcPe, .sc-fKFyDc.kEPiEw, .sc-fKFyDc.kfXsBH, /* Posts: join now */
+.sc-jrAGrp.hFfHPL,
+.sc-1h4huqp-1.kZaeDF,
+.e2oq97-0.erefEr, /* Posts: text fade */
+.sc-jrAGrp.geasoV, /* */
+.sc-1cqqv42-0.dgwlFA,
+.x54lhf-1.ebUhBO, /* Useless Bar */
+.sc-jrAGrp.xPZGK,
+.sc-jrAGrp.kpcZIe, .sc-8a4j3h-1.EMTUF, .sc-8a4j3h-0.gGbSMN /* Footer */
+{
+    display: none !important;
+}

@@ -1,0 +1,62 @@
+#hdtbMenus {
+	padding-top: 14px;
+	position: initial;
+	transition: height 220ms;
+}
+
+#hdtbMenus.hdtb-td-h {
+	padding-top: 0;
+	opacity: 0;
+	height: 0;
+	display: block;
+}
+
+#hdtbMenus.hdtb-td-o {
+	padding-top: 14px;
+	padding-bottom: 0;
+}
+
+#hdtb {
+	border-bottom: none;
+}
+
+#rcnt {
+	margin-top: 10px;
+}
+
+#xjs {
+	font-size: 19px;
+
+}
+
+#xjs td {
+	padding-right: 10px;
+}
+
+.card-section {
+	display: flex;
+	justify-content: center;
+}
+
+#bres {
+	margin-bottom: 20px;
+}
+
+footer,
+#BIqFsb, /* Search Button */
+#tsf .Tg7LZd,
+#tsf .FqnKTc,
+#footcnt, /* Footer */
+#appbar,
+.SJajHc,
+.kno-ftr, .pWCvWb, /* Feedback Button */
+.e2BEnf.U7izfe.mfMhoc,
+.fl.iUh30, /* Translate This Page */
+.V2Zq0e, /* People Also Search */
+.gb_Pc, /* Google Services Button */
+.jjPwL, /* Out of Stock Button */
+.xjRZNc, /* Image Copyright Notice */
+.h312td /* Product Notice */
+{
+	display: none !important;
+}

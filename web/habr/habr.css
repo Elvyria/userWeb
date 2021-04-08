@@ -1,0 +1,23 @@
+.layout__row_navbar {
+	position: relative;
+}
+
+.content_left {
+	padding-right: 0;
+}
+
+#comments,
+.post__translatation,
+.post__meta,
+.post__hubs,
+.post__marks,
+.layout__row_services,
+.layout__row_footer,
+.layout__row_footer-links,
+.layout__row_promo-blocks,
+.post-additionals,
+.post__tags,
+.promo-block,
+.sidebar {
+	display: none !important;
+}
