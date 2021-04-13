@@ -1,0 +1,92 @@
+#search-input {
+	border: none;
+}
+
+.tags a.label {
+	border: none;
+	font-size: 13px;
+}
+
+.software-used {
+	border-top: 1px #424242 solid;
+	padding-top: 10px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	justify-content: space-evenly;
+}
+
+.software {
+	flex: none;
+}
+
+.artwork-info-container {
+	box-shadow: 3px 3px 5px 6px #131313;
+	border-top: 3px #171717 solid;
+}
+
+.comments .media-body .commenter {
+	margin: 0 34px 0 0;
+}
+
+.social-actions {
+	margin: 0 !important;
+}
+
+.child_comment-text > p {
+	margin: 0;
+}
+
+.comments .nested-comments {
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.comment-body, .child_comment-body {
+	padding-left: 6px;
+}
+
+time.project-comment-published {
+	position: absolute;
+	right: 0;
+}
+
+.comments ul.media-list > li.media {
+	padding-bottom: 10px;
+}
+
+.main-menu .menu-level {
+	border-bottom: none;
+}
+
+.main-menu .menu-level-2 {
+	background-color: #171717;
+}
+
+.gallery-container .gallery .project.artist-profile {
+	transition: transform 300ms;
+	transform: translate3d(0, 0, 0);
+}
+
+.gallery-container .gallery .project.artist-profile:hover {
+	z-index: 5;
+	transform: translate3d(0, 0, 100px) scale(1.1);
+}
+
+hello-world,
+marketplace-popular-product,
+support-artstation.d-sm-flex, support-artstation.d-sm-block,
+subscription-plans,
+.user-follow-btn,
+.artwork-info-container h4.title, /* More by ...*/
+.artwork-info.ps-container > .separator,
+.gallery-single .artwork-info-container .artwork-actions-global,
+.newslttr,
+.gallery-container .gallery .project > a.project-image .overlay .info .name,
+.gallery-container .gallery .project > a.project-image .overlay .info img.avatar,
+.pro-badge,
+.commenter-headline,
+.project-comments-title,
+.project-comment-actions, .social-actions
+{
+	display: none !important;
+}
