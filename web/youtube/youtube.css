@@ -1,3 +1,11 @@
+/* Chat mentions */
+.mention.yt-live-chat-text-message-renderer {
+    background: inherit !important;
+    color: inherit !important;
+    padding: inherit !important;
+    border-radius: inherit !important;
+}
+
 #guide-wrapper {
     border-right: 1px solid var(--yt-spec-10-percent-layer);
 }
