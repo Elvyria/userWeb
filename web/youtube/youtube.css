@@ -1,3 +1,7 @@
+html[dark], [dark] {
+    --yt-spec-base-background: #181818 !important;
+}
+
 /* Chat mentions */
 .mention.yt-live-chat-text-message-renderer {
     background: inherit !important;
