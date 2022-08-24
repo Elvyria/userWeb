@@ -209,14 +209,16 @@ ytd-video-secondary-info-renderer {
 
 /* Playlist */
 
-#playlist {
+#playlist,
+ytd-engagement-panel-section-list-renderer {
     border: 2px solid #242424;
     border-radius: 15px;
     padding: 5px;
 }
 
-#playlist .header {
-    background-color: transparent;
+#playlist .header,
+ytd-engagement-panel-section-list-renderer #header {
+    background-color: transparent !important;
 }
 
 #playlist #end-actions {
