@@ -1,0 +1,45 @@
+* {
+	background-color: #161718;
+}
+
+input[type=submit] {
+	margin-right: 50px;
+}
+
+pre {
+	margin: auto;
+	max-width: max-content;
+	font-size: 16px;
+	letter-spacing: 0;
+	color: rgb(185, 185, 185);
+	line-height: 30px;
+	font-family: ubuntu;
+}
+
+.head {
+	color: #6f6f6f;
+}
+
+.hunk {
+	color: #e8a24b;
+}
+
+.del {
+	color: #ee5151;
+}
+
+.add {
+	color: #85db38;
+}
+
+a:link, a:visited {
+	color: rgb(79, 188, 255);
+	font-weight: 800;
+}
+
+hr {
+	height: 50px;
+	margin-bottom: 50px;
+	color: transparent;
+	border-bottom: 1px solid #202020;
+}
