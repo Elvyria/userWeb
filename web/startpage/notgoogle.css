@@ -1,0 +1,80 @@
+.search-form {
+    margin-left: 120px;
+}
+
+.css-17xyobx {
+    padding-top: 20px;
+}
+
+.css-c591iq {
+    box-shadow: 0 2px 4px #eee;
+}
+
+.css-36y5sa {
+    background-color: white;
+}
+
+.w-gl__result-url:visited {
+    color: rgb(32, 33, 36);
+}
+
+.w-gl__result {
+    margin: 0 0 15px -15px;
+}
+
+.w-gl__result a {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.search-filter-time__dropdown,
+.search-filter-region__dropdown,
+.search-filter-family__field-label {
+    color: rgb(32, 33, 36);
+    margin: 0 20px 0 0;
+}
+
+.css-vnukge button,
+.css-vnukge button:hover,
+.css-s2lpaj button:hover {
+    color: rgb(26, 115, 232);
+    border-bottom: 3px solid rgb(26, 115, 232);
+}
+
+.css-ocm99y {
+    color: rgb(95, 99, 104);
+    font-family: Google Sans, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+
+    outline-color: rgb(95, 99, 104);
+    text-decoration-color: rgb(95, 99, 104);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+.w-gl__result-title h3 {
+    color: #2e39b3;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    line-height: 26px
+}
+.w-gl__description {
+    font-family: arial, sans-serif;
+    line-height: 22.1167px;
+    font-size: 14px;
+    color: rgb(77, 81, 86);
+}
+
+.css-agemxg,
+.css-5ej25d,
+.home-btn-logo,
+.anonymous-link,
+.w-gl__label,
+.layout-web__footer,
+#feedback-button-container {
+    display: none !important;
+}
