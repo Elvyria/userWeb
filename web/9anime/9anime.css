@@ -1,0 +1,11 @@
+footer,
+a[href^='http']:not([href^='https://9anime']),
+#comments,
+#watch-second,
+#w-servers > .tip,
+.bsharing,
+.alert.next-episode,
+.alert.alert-secondary.notice
+{ 
+    display: none !important;
+}
