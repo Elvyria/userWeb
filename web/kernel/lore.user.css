@@ -1,5 +1,10 @@
 * {
 	background-color: #161718;
+	color: #DDD;
+}
+
+#R {
+	display: none;
 }
 
 input[type=submit] {
@@ -14,6 +19,10 @@ pre {
 	color: rgb(185, 185, 185);
 	line-height: 30px;
 	font-family: ubuntu;
+}
+
+.q {
+	color: #5e5e5e;
 }
 
 .head {
